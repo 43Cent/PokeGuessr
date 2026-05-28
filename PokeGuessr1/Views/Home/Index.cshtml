@@ -1,10 +1,123 @@
-﻿@model List<PokeGuessr1.Models.Pokemon>
+﻿@model PokeGuessr1.Models.GameViewModel
 
 <h1>Pokemon Guessing Game</h1>
 
+<!-- Guess Form -->
 <form method="post">
-    <input type="text" name="guess" />
-    <button type="submit">Guess</button>
+    <input asp-for="GuessInput"
+           list="pokemon-list" />
+    <datalist id="pokemon-list">
+        @foreach (var pokemon in Model.PokemonNames)
+        {
+            <option value="@pokemon"></option>
+        }
+    </datalist>
+    <button type="submit"
+            @(Model.GameWon || Model.GameLost ? "disabled" : "")>
+        Submit
+    </button>
 </form>
 
-<p>Debug Answer: @ViewBag.Answer</p>
+<br />
+
+<!-- Reset Form -->
+<form method="post" asp-action="Reset">
+    <button type="submit">
+        New Game
+    </button>
+</form>
+
+<h3>
+    Remaining Guesses:
+    @Model.RemainingGuesses
+</h3>
+
+@if (Model.GameLost)
+{
+    <h2>
+        You lost!
+
+        The Pokémon was:
+        @Model.CorrectPokemon
+    </h2>
+}
+
+@if (Model.GameWon)
+{
+    <h2>You guessed correctly!</h2>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Generation</th>
+            <th>Type1</th>
+            <th>Type2</th>
+            <th>Weight</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var guess in Model.PreviousGuesses)
+        {
+            <tr>
+                <td class="@(guess.NameCorrect ? "bg-success" : "bg-danger")">
+                    @guess.Guess.Name
+                </td>
+                
+                <td>
+
+                    @guess.Guess.Generation
+
+                    @if (guess.GenerationHint == "✅")
+                    {
+                        <span class="bg-success p-1">
+                            @guess.GenerationHint
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="bg-warning p-1">
+                            @guess.GenerationHint
+                        </span>
+                    }
+
+                </td>
+
+                <td class="@(guess.Type1Result == "green"? "bg-success"
+                    : guess.Type1Result == "yellow"
+                            ? "bg-warning"
+                            : "bg-danger")
+    ">
+
+                    @guess.Guess.Type1
+
+                </td>
+
+               
+                <td class="@(guess.Type2Result == "green" ? "bg-success"
+                    : guess.Type2Result == "yellow"
+                        ? "bg-warning"
+                        : "bg-danger")
+                ">
+
+                    @guess.Guess.Type2
+
+                </td>
+                <td>
+                    @guess.Guess.Weight
+                    @if (guess.WeightHint == "✅"){
+                        <span class="bg-success p-1">
+                            @guess.WeightHint
+                        </span>
+                    }
+                    else{
+                        <span class="bg-warning p-1">
+                            @guess.WeightHint
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

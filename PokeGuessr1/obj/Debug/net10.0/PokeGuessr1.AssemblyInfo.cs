@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeGuessr1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e93f055039d4d44caec289f4f01f2e0ae73d465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a053782981dcda0437cc13ef9cfbae29eff52521")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeGuessr1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeGuessr1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

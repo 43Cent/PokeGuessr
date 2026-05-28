@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\models\\guessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:models\\guessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|d:\\gitkraken repo-repo\\pokeguessr\\pokeguessr1\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79073ECA-ABFA-4961-6318-C7D9CB417B05}|PokeGuessr1.csproj|solutionrelative:services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "Services\\GameService.cs",
-              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Services\\GameService.cs",
-              "RelativeToolTip": "Services\\GameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GuessResult.cs",
+              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Models\\GuessResult.cs",
+              "RelativeDocumentMoniker": "Models\\GuessResult.cs",
+              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Models\\GuessResult.cs",
+              "RelativeToolTip": "Models\\GuessResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T03:29:28.392Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-05-28T04:56:49.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T02:42:41.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAlwFMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T03:34:35.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
+              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:58:28.409Z",
               "EditorCaption": ""
             },
             {
@@ -69,34 +102,31 @@
               "RelativeToolTip": "Models\\Pokemon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T03:15:14.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T03:15:14.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-28T02:42:41.374Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Services\\GameService.cs",
+              "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Services\\GameService.cs",
+              "RelativeToolTip": "Services\\GameService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T03:29:28.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GitKraken Repo-repo\\PokeGuessr\\PokeGuessr1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T02:25:39.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T02:25:39.854Z"
             }
           ]
         }

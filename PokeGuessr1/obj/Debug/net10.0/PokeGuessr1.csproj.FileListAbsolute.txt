@@ -97,3 +97,4 @@ D:\GitKraken Repo-repo\PokeGuessr\PokeGuessr1\obj\Debug\net10.0\refint\PokeGuess
 D:\GitKraken Repo-repo\PokeGuessr\PokeGuessr1\obj\Debug\net10.0\PokeGuessr1.pdb
 D:\GitKraken Repo-repo\PokeGuessr\PokeGuessr1\obj\Debug\net10.0\PokeGuessr1.genruntimeconfig.cache
 D:\GitKraken Repo-repo\PokeGuessr\PokeGuessr1\obj\Debug\net10.0\ref\PokeGuessr1.dll
+D:\GitKraken Repo-repo\PokeGuessr\PokeGuessr1\obj\Debug\net10.0\compressed\ojsdjwl80j-{0}-p4y0jzy94a-p4y0jzy94a.gz
