@@ -1,25 +1,27 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PokeGuessr1.Models;
+using PokeGuessr1.Services;
 
 namespace PokeGuessr1.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly GameService _gameService;
+
+        public HomeController(GameService gameService)
+        {
+            _gameService = gameService;
+        }
+
         public IActionResult Index()
         {
-            return View();
-        }
+            var pokemonList = _gameService.LoadPokemon();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            var answer = _gameService.GetRandomPokemon(pokemonList);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            ViewBag.Answer = answer.Name;
+
+            return View(pokemonList);
         }
     }
 }

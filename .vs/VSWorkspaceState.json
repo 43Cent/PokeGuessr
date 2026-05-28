@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PokeGuessr1",
+    "\\PokeGuessr1\\Controllers",
+    "\\PokeGuessr1\\Models",
+    "\\PokeGuessr1\\Services",
+    "\\PokeGuessr1\\Views",
+    "\\PokeGuessr1\\Views\\Home",
+    "\\PokeGuessr1\\wwwroot"
+  ],
+  "SelectedNode": "\\PokeGuessr1\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
